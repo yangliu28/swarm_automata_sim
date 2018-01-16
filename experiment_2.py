@@ -4,7 +4,7 @@
 # 4 is the minimum number of sectors to achieve a "balanced" automaton
 # only 2 sectors will make automaton accelerate in an uncontrollable manner
 
-# most codes are the same with experiment 1, for an automaton change like this
+# most code is the same with experiment 1, for an automaton change like this
 # only two main parts need to be updated:
 # the automaton physics in automaton class, and the graphics for the automaton
 

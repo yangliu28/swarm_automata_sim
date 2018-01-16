@@ -1,10 +1,11 @@
 # swarm_automata_sim
-These simulations implement principles of cellular automata during the interactions of swarm robots, in hope of discovering correlations between group behaviors and local rules. Pygame is used for the graphics.
+These simulations implement principles of cellular automata in the interactions between swarm robots, in the hope of discovering the causality of collective behaviors from local rules, and further using the local rules as building blocks for designing any collective behavior we want.
 
-These simulations study correlations between macro swarm behaviors and local rules, inspired by cellular automata.
+The approach I took here is bottom-up like, that is simply trying out different local rules, with my poor prediction guiding the design, and expecting something interesting would come up. But as you will see, nothing but chaos and randomness appears. Those who have studied cellular automata should be no stranger of these, which I now hope I knew in the first place.
 
+Thouth being not successful, if it happens that you get something from these, I would be glad to know, or just enjoy the wandering automata! My new focus is an automatic method for rule design, which should be ready to share soon.
 
-To run the simulations:
+Pygame is used for the graphics, it supports Python2 only. More comments can be found in the source code. To run the simulations:
 
 `python experiment_1.py`
 
@@ -13,4 +14,7 @@ To run the simulations:
 `python experiment_3.py`
 
 `python experiment_3_1.py`
+
+[https://youtu.be/yl96k1P8Hpg](https://youtu.be/yl96k1P8Hpg)
+
 

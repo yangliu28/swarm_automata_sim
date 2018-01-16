@@ -25,18 +25,6 @@
     # and assign desired pheromone value according to its distance to automaton
     # time dissipation is done individually
 
-############### variable assignment in python ###############
-# I spent two days to find this bug
-# when you assign a list to another, like "b=a"
-# you are not copying the value of "a" to "b", but binding variable "a" to "b"
-# whenever "a" changes, "b" changes too
-# while this is not true if variable is a single number, "a" doesn't affect "b"
-# when assignment is like "c=a+b", this is a copy, change in "a" won't affect "c"
-# this is the same when the assignment of list is from the return of a function
-# to solve this, return the list in this way: "return a[:]"
-# more information:
-# http://stackoverflow.com/questions/2612802/how-to-clone-or-copy-a-list
-
 ############### analysis ###############
 # 03/26/2017
 # it's time consuming to implement pheromone discretely and in a good-enough
@@ -122,7 +110,7 @@ p_ori = [[0 for j in range(screen_size[1])] for i in range(screen_size[0])]
 
 # the loop
 sim_exit = False  # simulation exit flag
-sim_pause = False  # simulation pause flag
+sim_pause = True  # simulation pause flag
 timer_last = pygame.time.get_ticks()  # return number of milliseconds after pygame.init()
 timer_now = timer_last  # initialize it with timer_last
 delta_t = frame_period / 1000.0  # time period to calculate changes in automata physics
