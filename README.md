@@ -15,6 +15,6 @@ Pygame is used for the graphics, it supports Python2 only. More comments can be 
 
 `python experiment_3_1.py`
 
-[https://youtu.be/yl96k1P8Hpg](https://youtu.be/yl96k1P8Hpg)
+[https://youtu.be/0Duzoj8uZsc](https://youtu.be/0Duzoj8uZsc)
 
 
